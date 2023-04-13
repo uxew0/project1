@@ -1,0 +1,7 @@
+/* selektor tagu */
+h1 {
+    /* color to właściwość CSS-a */
+    /* red to wartość przypisana do właściwości color */
+    /* : operator przypisania */
+    color: red;
+}
