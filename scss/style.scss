@@ -1,0 +1,22 @@
+@use 'variables' as *; 
+@use 'reset' as *; 
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 200vh;
+}
+
+header {
+    height: 100vh;
+    background: url('../assets/img/bg_header.webp') center/cover fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: $color4;
+    font-size: 40px;
+    text-align: center;
+    line-height: 150%;
+}
